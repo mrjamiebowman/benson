@@ -19,7 +19,6 @@ namespace BensonCLI
         public List<string> Apps = new List<string>()
         {
             "repos",
-            "athenaterm",
             "appcheck"
         };
 
@@ -74,7 +73,6 @@ namespace BensonCLI
             {
                 reposCommand,
                 new Command("apptest", "Automated application testing."),
-                new Command("aterm", "Athena terminated users.")
             };
 
             return await rootCommand.InvokeAsync(args);
@@ -95,9 +93,8 @@ namespace BensonCLI
         private void MainMenu()
         {
             Console.WriteLine("");
-            Console.WriteLine(" Please choose a SamDev App:");
+            Console.WriteLine(" Please choose a Bensom CLI App:");
             Console.WriteLine(" (R)epos - Repository Mapper");
-            Console.WriteLine(" (A)thena Termination");
             Console.WriteLine(" (H)elp, E(x)it");
             Console.Write("\r\nSelect an option: ");
 
@@ -105,7 +102,6 @@ namespace BensonCLI
 
             switch (Console.ReadKey(true).Key)
             {
-
                 case ConsoleKey.R:
                     break;
                 case ConsoleKey.A:
