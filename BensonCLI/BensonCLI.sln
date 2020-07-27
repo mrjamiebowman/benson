@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BensonCLI.Data", "..\Benson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BensonCLI.Plugins", "..\BensonCLI.Plugins\BensonCLI.Plugins.csproj", "{675944BE-D950-4313-BCCE-049EC6482640}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BensonCLI.Data.Models", "..\BensonCLI.Data.Models\BensonCLI.Data.Models.csproj", "{8D57F216-CE63-400C-9FCC-1C1C2BB1850F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{675944BE-D950-4313-BCCE-049EC6482640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675944BE-D950-4313-BCCE-049EC6482640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675944BE-D950-4313-BCCE-049EC6482640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D57F216-CE63-400C-9FCC-1C1C2BB1850F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D57F216-CE63-400C-9FCC-1C1C2BB1850F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D57F216-CE63-400C-9FCC-1C1C2BB1850F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D57F216-CE63-400C-9FCC-1C1C2BB1850F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
